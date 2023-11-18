@@ -1,0 +1,40 @@
+.blendMode{
+    background-color: rgba(61, 59, 59, 0.612);
+     background-blend-mode: multiply;
+ }
+ .btn-slider{
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    outline: none;
+    font-size: 20px;
+   
+    
+    background: #da0037;
+    border-radius: 12px;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    -webkit-transition: 300ms ease-in-out;
+    -o-transition: 200ms ease-in-out;
+    transition: 200ms ease-in-out;
+ }
+ .btn-slider-detailes{
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    outline: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background: #333940 ;
+    border-radius: 12px;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    -webkit-transition: 300ms ease-in-out;
+    -o-transition: 200ms ease-in-out;
+    transition: 200ms ease-in-out;
+ }
+.swiper-pagination-bullet{
+   padding: 7px;
+    background-color: lightblue;
+}

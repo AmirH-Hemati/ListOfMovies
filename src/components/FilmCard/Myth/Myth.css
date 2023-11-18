@@ -1,0 +1,36 @@
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 30px auto;
+  width: 400px;
+  height: 250px;
+  border-radius: 40px;
+  box-shadow: 1px 1px 10px 3px rgba(255, 255, 255, 0.25), -5px -5px 30px 7px rgba(255, 255, 255, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+  margin: 15px;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 3px 3px 20px 7px rgba(255, 255, 255, 0.25), -5px -5px 30px 15px rgba(255, 255, 255, 0.22);
+}

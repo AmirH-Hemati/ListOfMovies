@@ -1,0 +1,22 @@
+.blendMode {
+  background-color: rgba(128, 128, 128, 0.53);
+  background-blend-mode: multiply;
+}
+.border-slider-rest {
+  border-bottom: 2px solid rgba(170, 164, 164, 0.294);
+  margin: 0 200px;
+}
+
+button.MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-sizeMedium.MuiPaginationItem-text.MuiPaginationItem-circular.Mui-selected.MuiPaginationItem-page.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root {
+  color: white;
+  background-color: #da0037;
+  margin: 5px;
+}
+.css-wjh20t-MuiPagination-ul {
+  background-color: #3d3d4ab8;
+  width: 600px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
